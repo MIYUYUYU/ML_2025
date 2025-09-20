@@ -18,3 +18,7 @@ def check(x: str, file: str):
         #print(str(word) + ' ' + str(words_count[word]))
             f.write(str(word) + ' ' + str(words_count[word]) + '\n')
 
+    #print(words)
+
+
+check("a aa abC aa ac abc bcd a dcd ccc", "file.txt")
